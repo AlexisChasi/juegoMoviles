@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498826598507",
+    "project_id": "juegoshooter-1fad0",
+    "storage_bucket": "juegoshooter-1fad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498826598507:android:16c6ee839520f5db96f92e",
+        "android_client_info": {
+          "package_name": "com.shooter.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuqchgou2uBKy9J2aeDt9_G5UZNpy-XqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
