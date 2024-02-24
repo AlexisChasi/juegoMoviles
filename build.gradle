@@ -43,6 +43,7 @@ allprojects {
 
 project(":android") {
     apply plugin: "com.android.application"
+    apply plugin: 'com.google.gms.google-services'
 
     configurations { natives }
 
@@ -58,6 +59,7 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86_64"
+        natives "com.google.firebase:firebase-core:21.1.1"
 
 
 
@@ -67,10 +69,10 @@ project(":android") {
 project(":core") {
     apply plugin: "java-library"
 
-
     dependencies {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        api "com.google.firebase:firebase-firestore:24.10.2"
     }
 }
 
