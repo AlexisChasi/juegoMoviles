@@ -3,6 +3,9 @@
 - ELVIS GUANOLUISA
 - FRANKLIN PATIÑO
 - ROBERT SHIAO
+# SENSOR UTILIZADO
+
+el acelerómetro en el juego  se utiliza para controlar el movimiento de la nave espacial inclinando el dispositivo hacia la dirección deseada. Por ejemplo, inclinar el dispositivo hacia la izquierda hará que la nave se mueva hacia la izquierda en el juego, y lo mismo ocurre al inclinar hacia la derecha. Esto proporciona una forma intuitiva y dinámica de controlar la nave sin necesidad de tocar la pantalla.
 
 # CAPTURAS
 
